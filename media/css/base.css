@@ -1,0 +1,476 @@
+/*
+	Name: Base Stylesheet
+	Description: Sitio oficial de Sociedad Uruguaya de Psicología del deporte (supde) Asociación Civil
+	Author: Ignacio Lopez Juani
+	Author URI: www.lopezjuani.com
+*/
+
+/* Imports */
+@import url("html5-reset.css");
+@import url(http://fonts.googleapis.com/css?family=Belgrano);
+
+/* Global ************************************************/
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #006CC9;
+}
+
+section {
+  clear: both;
+}
+
+address a {
+  color: white;
+}
+
+.social_btn {
+  margin: 10px;
+}
+.info_foot {
+  font-size: 10px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.main-container {
+  clear: both;
+  padding-top: 20px;
+}
+
+.logo {
+  float: left;
+  display: inline;
+}
+
+#affiliate {
+  height: 255px;
+  padding: 95px 600px 0 0;
+}
+#affiliate h1 {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+#conf_text {
+  margin-left: 450px;
+  line-height: 1.7em;
+  margin-bottom: 40px;
+  width: 380px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+nav ul li a {
+  text-shadow: 1px 1px 1px #CACAD9;
+  color: #121212;
+  font: 1em "Helvetica, Arial" sans-serif;
+  padding-left: 38px;
+}
+nav ul.menu {
+  margin: 40px 150px;
+}
+
+.main-header {
+  text-indent: -9999px;
+}
+.hidden {
+  text-indent: -9999px;
+}
+
+#affiliate_text {
+  margin-bottom: 50px;
+  line-height: 1.7em;
+}
+
+#membership_application {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+#membership_application h1 {
+  margin-bottom: 0;
+}
+
+.main-footer {
+  height: 110px;
+  font-size: 12px;
+  color: white;
+  background-color: #008DF2;
+  text-align: center;
+  margin-top: 150px;
+}
+
+
+#g {
+  float: left;
+  clear: both;
+  border: 1px solid rgba( 0, 0, 0, 0.3);
+-webkit-box-shadow: 1px 5px 30px 5px rgba(0, 0, 0, 0.2);
+box-shadow: 1px 5px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+.main-title {
+  color: #004788;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  text-shadow: 0px -1px 1px #E8F4FC;
+  border-bottom: 1px solid #cecece;
+  padding-bottom: 10px;
+}
+
+.sub-title {
+  color: #006CC9;
+  margin-top: 75px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.sub-title h2 {
+  margin-bottom: 44px;
+}
+
+.main-container h1,
+.main-container h2,
+.main-container h3,
+.main-container h4,
+.main-container ul,
+.main-container p {
+  margin-bottom: 1em;
+}
+
+
+.history-title {
+  margin: 20px 0;
+}
+
+
+.primary-btn {
+  background-color: #008DF2;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border:1px solid #6CA6C1;
+  font-size: 20px;
+  color: #E8F4FC;
+  text-shadow: 0px -1px 1px #727E8A;
+  padding: 6px 12px;
+  /*-webkit-gradient(linear, 0% 0%, 0% 70%, from(#008DF2), to(#006CC9));
+  -moz-linear-gradient(0% 70% 0deg,#008DF2, #006CC9);*/
+}
+
+.secondary-btn {
+  background-color: #008DF2;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border:1px solid #6CA6C1;
+  font-size: 15px;
+  color: #E8F4FC;
+  text-shadow: 0px -1px 1px #727E8A;
+  padding: 3px 6px;
+}
+
+.btn:hover {
+  background-color: #0081dd;
+  border-color: #005fa2;
+}
+
+.up-btn {
+  color: #008DF2;
+  float: right;
+  margin-bottom: 75px;
+}
+
+/*
+  LEVEL ONE
+*/
+ul.dropdown                         { position: relative; }
+ul.dropdown li                      { font-weight: bold; float: left; zoom: 1; background: #fff; }
+ul.dropdown a:hover               { color: #000; }
+ul.dropdown a:active                { color: #ffa500; }
+ul.dropdown li a                    { display: block; padding: 7px; color: #222; }
+ul.dropdown li:last-child a         { border-right: none; }
+ul.dropdown li.hover,
+ul.dropdown li:hover                { background: #C0C9FF; color: black; position: relative; }
+ul.dropdown li.hover a              { color: black; }
+
+
+/*
+  LEVEL TWO
+  */
+  ul.dropdown ul            { width: 220px; visibility: hidden; position: absolute; top: 100%; left: 0; }
+  ul.dropdown ul li           { font-weight: normal; background: #fff; color: #000; float: none; }
+
+/* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a {
+  border-right: none;
+  width: 100%;
+  display: inline-block;
+  background-color: #FFF;
+  box-sizing: border-box;
+}
+ul.dropdown ul li a:hover {
+  background-color: #E9E9E9;
+}
+
+ul.dropdown ul {
+  border: 1px solid rgba( 0, 0, 0, 0.3);
+  -webkit-box-shadow:  1px 5px 30px 5px rgba(0, 0, 0, 0.2);
+  box-shadow:  1px 5px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Specific ************************************************/
+
+/*Home*/
+body.home {
+  background: transparent url(../images/background.jpg) center 150px no-repeat;
+}
+
+body.home .jThumbnailScroller .jTscrollerContainer {
+  line-height: 0;
+}
+
+body.home .sub-title {
+  text-align: center;
+}
+
+/* About */
+body.about .abouthistory-list {
+  margin: 25px 50px;
+}
+
+body.about .abouthistory-list a {
+  color: #006CC9;
+}
+
+body.about .abouthistory-list a:hover {
+  background-color: #0081dd;
+  border-color: #005fa2;
+}
+
+body.about .abouthistory-list a:hover {
+  color: white;
+  background-color: #006CC9;
+}
+body.about .list-bullets {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+body.about .list-bullets li {
+  padding: 0;
+}
+body.about .list-bullets li p {
+  margin: 0;
+}
+
+
+.list-bullets {
+  list-style-image: url('../images/bullet.jpg');
+  padding-left: 1em;
+}
+.list-bullets li {
+  width: 200px;
+  padding: 12px 25px;
+}
+
+/* activities */
+
+body.activities .ateneosimgul {
+  display: inline;
+}
+.ateneos-text {
+  width: 500px;
+}
+
+body.activities .actimgs {
+  border: 1px solid rgba( 0, 0, 0, 0.3);
+  -webkit-box-shadow:  1px 5px 30px 5px rgba(0, 0, 0, 0.2);
+  box-shadow:  1px 5px 30px 5px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+.secondary-title {
+  font-size: 18px;
+  padding: 20px 0;
+  color: #006CC9;
+}
+
+/* afiliate */
+body.afiliate {
+
+}
+
+body.afiliate #enviar {
+margin-left: 400px;
+}
+
+
+/* Contact */
+body.contact {
+
+}
+.contact-info {
+  line-height: 40px;
+text-align: center;
+width: 400px;
+padding-top: 5px;
+float: right;
+}
+
+.contacto {
+  width: 500px;
+}
+
+.contacto .titulo-pagina {
+  margin: 0 0 20px 0;
+}
+.contacto h2 {
+  margin-bottom: 20px;
+}
+.contacto p {
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+.contacto form {
+  margin: 0 auto;
+  width: 260px;
+}
+.contacto label {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  display: block;
+  padding-bottom: 15px;
+}
+.contacto .campo {
+  width: 254px;
+  height: 30px;
+  margin-bottom: 20px;
+  border: 1px Solid  #006CC9;
+  padding: 2px;
+  color: #000;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  overflow: auto;
+}
+.contacto .campomensaje {width: 254px;
+  height: 200px;
+  margin-bottom: 20px;
+  border: 1px Solid #006CC9;
+  padding: 2px;
+  color: #000;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  overflow: auto;
+}
+.contacto #comentario {
+  width: 254px;
+  height: 193px;
+}
+.contacto input#boton_enviar {
+  color: #006CC9;
+  padding: 10px;
+}
+
+#boton_enviar{ margin-left: 100px;
+
+}
+
+.center {
+  text-align: center;
+  line-height: 2em;
+}
+
+/* gallery */
+body.gallery {
+
+}
+#galleria{
+  margin: 0 auto;
+  width: 700px;
+  height: 400px;
+  background: #000 }
+
+/* ================================================================
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menu/lightbox.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any
+way to fit your requirements.
+=================================================================== */
+/* common styling */
+
+body.gallery a {color:#000;}
+body.gallery a:hover {text-decoration:none;}
+body.gallery a:visited {color:#000;}
+
+/* slides styling */
+
+body.gallery .photo {width:635px; text-align:left; position:relative; margin:0 auto; height: 600px;}
+
+body.gallery .photo ul.topic {padding:0; margin:0; list-style:none; width:635px; height:auto; position:relative; z-index:10;}
+
+body.gallery .photo ul.topic li {display:block; width:148px; height:31px; float:left;}
+body.gallery .photo ul.topic li a.set {display:block; font-size:11px; width:146px; height:30px; text-align:center; line-height:30px; color:#000; text-decoration:none; border:1px solid #fff; border-width:1px 1px 0 0; background:#ccc; font-family:verdana, arial, sans-serif;}
+
+body.gallery .photo ul.topic li a ul,
+body.gallery .photo ul.topic li ul {display:none;}
+
+body.gallery .photo ul.topic li.active a {color:#000; background:#bbb;}
+
+body.gallery .photo ul.topic li a:hover,
+.photo ul.topic li:hover a {color:#fff; background:#aaa;}
+
+body.gallery .photo ul.topic li.active ul
+{display:block; position:absolute; left:0; top:31px; list-style:none; padding:0; margin:0; height:375px; background:#ddd; width:464px; padding:40px 60px; border:3px solid #bbb; z-index:1;}
+
+body.gallery .photo ul.topic li a:hover ul,
+body.gallery .photo ul.topic li:hover ul
+{display:block; position:absolute; left:0; top:31px; list-style:none; padding:0; margin:0; height:375px; background:#ddd; width:464px; padding:40px 60px; border:3px solid #aaa; z-index:100;}
+
+body.gallery .photo ul.topic li ul li
+{display:inline; width:112px; height:87px; float:left; border:1px solid #fff; margin:1px;}
+
+body.gallery .photo ul.topic li ul li a
+{display:block; width:110px; height:85px; cursor:default; float:left; text-decoration:none; background:#444; border:1px solid #888;}
+
+body.gallery .photo ul.topic li ul li a img
+{display:block; width:100px; height:75px; border:5px solid #eee;}
+
+body.gallery .photo ul.topic li a:hover ul li a:hover,
+body.gallery .photo ul.topic li:hover ul li a:hover
+{white-space:normal; position:relative;}
+
+body.gallery .photo ul.topic li a:hover ul li a:hover img,
+body.gallery .photo ul.topic li:hover ul li a:hover img
+{position:absolute; left:1px; top:-32px; width:200px; height:150px; border-color:#fff;}
+
+/* links */
+body.links {
+
+}
+/* virtual-class-room */
+body.virtual-class-room #prof-list {
+  margin-bottom: 50px;
+}
+
+.center tr td span {font-family: Helvetica, Arial, sans-serif; monospace; font-size: 14px; margin-left: 300px;
+}
+
+.center h3 {font-family: Helvetica, Arial, sans-serif; color: #006CC9; font-weight: bold; font-size: 16px; text-align: center; margin-bottom: 30px;
+}
