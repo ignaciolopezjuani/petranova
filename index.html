@@ -6,113 +6,111 @@ title: Home
 
 
 
+<div id="main-container">
 
-<section>
+  <section>
 
-    <div class="slider-wrapper">
-      <div id="slider" class="nivoSlider">
-          <img src="images/nemo.jpg" alt="" />
-          <a href="http://dev7studios.com"><img src="images/up.jpg" alt="" title="#htmlcaption" /></a>
-          <img src="images/walle.jpg" alt="" title="This is an example of a caption" />
-          <img src="images/toystory.jpg" alt="" />
+      <div class="slider-wrapper">
+        <div id="slider" class="nivoSlider">
+            <img src="media/images/nemo.jpg" alt="" />
+            <a href="http://dev7studios.com"><img src="media/images/up.jpg" alt="" title="#htmlcaption" /></a>
+            <img src="media/images/walle.jpg" alt="" title="This is an example of a caption" />
+            <img src="media/images/toystory.jpg" alt="" />
+        </div>
       </div>
+      <div id="htmlcaption" class="nivo-html-caption">
+          <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+      </div>
+
+  </section>
+  <section>
+
+    <h1><a href="#" class="main-title">Productos</a></h1>
+
+      <article class="">
+        <a href="#"><img src="media/images/productos/mesadacocina.jpg"/></a>
+        <h2><a href="#">Mesadas de Cocina</a></h2>
+      </article>
+
+      <article class="">
+        <a href="#"><img src="media/images/productos/mesadabanio.jpg"/></a>
+        <h2><a href="#">Mesadas de Baño</a></h2>
+      </article>
+
+      <article>
+        <a href="#"><img src="media/images/productos/bacha.jpg"/></a>
+        <h2><a href="#">Bacha</a></h2>
+      </article>
+
+      <article class="">
+        <a href="#"><img src="media/images/productos/google/escalera.jpg"/></a>
+        <h2><a href="#">Escaleras</a></h2>
+      </article>
+
+      <article>
+        <a href="#"><img src="media/images/productos/restauracion.jpg"/></a>
+        <h2><a href="#">Restauraciones</a></h2>
+      </article>
+
+  </section>
+
+  <section>
+    <h1><a href="#" class="main-title">Materiales</a></h1>
+
+      <article>
+        <a href="#">Mármol</a>
+        <ul>
+          <li><a href="#"><img src="media/images/materiales/marmol/1.jpg"/></a></li>
+          <li><a href="#"><img src="media/images/materiales/marmol/2.jpg"/></a></li>
+          <li><a href="#"><img src="media/images/materiales/marmol/3.jpg"/></a></li>
+          <li><a href="#"><img src="media/images/materiales/marmol/4.jpg"/></a></li>
+          <li><a href="#"><img src="media/images/materiales/marmol/5.jpg"/></a></li>
+        </ul>
+      </article>
+
+      <article>
+        <a href="#">Granito</a>
+        <ul>
+          <li><a href="#"><img src="media/images/materiales/granito/1.jpg"/></a></li>
+          <li><a href="#"><img src="media/images/materiales/granito/2.jpg"/></a></li>
+          <li><a href="#"><img src="media/images/materiales/granito/3.jpg"/></a></li>
+          <li><a href="#"><img src="media/images/materiales/granito/4.jpg"/></a></li>
+          <li><a href="#"><img src="media/images/materiales/granito/5.jpg"/></a></li>
+        </ul>
+      </article>
+  </section>
+
+
+
+  <section>
+    <h1><a href="#" class="main-title">Contacto</a></h1>
+
+    <div class="contacto">
+
+      <form  class="contacto" name="formulario" id="formulario" method="">
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" id="nombre" class="campo" />
+
+        <label for="email">E-mail:</label>
+        <input id="email" type="text" class="campo" />
+
+        <label for="telephone">Teléfono:</label>
+        <input id="telephone" type="text" class="campo" />
+
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" class="campomensaje"></textarea>
+
+        <input type="submit" id="boton_enviar" name="enviar" value="Enviar" />
+      </form>
     </div>
-    <div id="htmlcaption" class="nivo-html-caption">
-        <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
-    </div>
-    <script type="text/javascript">
-    $(window).load(function() {
-    $('#slider').nivoSlider();
-    );
-    </script>
 
-<section>
-
-  <h1><a href="#" class="main-title">Productos</a></h1>
-
-    <article class="">
-      <a href="#"><img src="media/images/productos/mesadacocina.jpg"/></a>
-      <h2><a href="#">Mesadas de Cocina</a></h2>
-    </article>
-
-    <article class="">
-      <a href="#"><img src="media/images/productos/mesadabanio.jpg"/></a>
-      <h2><a href="#">Mesadas de Baño</a></h2>
-    </article>
-
-    <article>
-      <a href="#"><img src="media/images/productos/bacha.jpg"/></a>
-      <h2><a href="#">Bacha</a></h2>
-    </article>
-
-    <article class="">
-      <a href="#"><img src="media/images/productos/google/escalera.jpg"/></a>
-      <h2><a href="#">Escaleras</a></h2>
-    </article>
-
-    <article>
-      <a href="#"><img src="media/images/productos/restauracion.jpg"/></a>
-      <h2><a href="#">Restauraciones</a></h2>
-    </article>
-
-</section>
-
-<section>
-  <h1><a href="#" class="main-title">Materiales</a></h1>
-
-    <article>
-      <a href="#">Mármol</a>
-      <ul>
-        <li><a href="#"><img src="media/images/materiales/marmol/1.jpg"/></a></li>
-        <li><a href="#"><img src="media/images/materiales/marmol/2.jpg"/></a></li>
-        <li><a href="#"><img src="media/images/materiales/marmol/3.jpg"/></a></li>
-        <li><a href="#"><img src="media/images/materiales/marmol/4.jpg"/></a></li>
-        <li><a href="#"><img src="media/images/materiales/marmol/5.jpg"/></a></li>
-      </ul>
-    </article>
-
-    <article>
-      <a href="#">Granito</a>
-      <ul>
-        <li><a href="#"><img src="media/images/materiales/granito/1.jpg"/></a></li>
-        <li><a href="#"><img src="media/images/materiales/granito/2.jpg"/></a></li>
-        <li><a href="#"><img src="media/images/materiales/granito/3.jpg"/></a></li>
-        <li><a href="#"><img src="media/images/materiales/granito/4.jpg"/></a></li>
-        <li><a href="#"><img src="media/images/materiales/granito/5.jpg"/></a></li>
-      </ul>
-    </article>
-</section>
-
-
-
-<section>
-  <h1><a href="#" class="main-title">Contacto</a></h1>
-
-  <div class="contacto">
-
-    <form  class="contacto" name="formulario" id="formulario" method="">
-      <label for="nombre">Nombre:</label>
-      <input id="nombre" type="text" id="nombre" class="campo" />
-
-      <label for="email">E-mail:</label>
-      <input id="email" type="text" class="campo" />
-
-      <label for="telephone">Teléfono:</label>
-      <input id="telephone" type="text" class="campo" />
-
-      <label for="comentarios">Comentarios:</label>
-      <textarea id="comentarios" class="campomensaje"></textarea>
-
-      <input type="submit" id="boton_enviar" name="enviar" value="Enviar" />
-    </form>
-  </div>
-
-  <ul>
-    <li><a href="#">Petranova@gmail.com</a></li>
-    <li>Rodrigo Calixto   099349135</li>
-    <li>Pablo Barrios   091300402</li>
-    <li><a href="#"><img src="media/images/facebook.jpg"/></a></li>
-    <li><a href="#"><img src="media/images/mercadolibre.jpg"/></a></li>
-  </ul>
-</section>
+    <ul>
+      <li><a href="#">Petranova@gmail.com</a></li>
+      <li>Rodrigo Calixto   099349135</li>
+      <li>Pablo Barrios   091300402</li>
+      <li><a href="#"><img src="media/images/facebook.jpg"/></a></li>
+      <li><a href="#"><img src="media/images/mercadolibre.jpg"/></a></li>
+    </ul>
+  </section>
+</div>
 

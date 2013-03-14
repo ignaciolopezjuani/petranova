@@ -17,18 +17,16 @@ body {
   line-height: 1.5em;
 }
 
-.container {
-  width: 960px;
+.main-container {
+  width: 85%;
   margin: 0 auto;
 }
-.main-container {
-  clear: both;
-  padding-top: 20px;
-}
 
-.logo {
+.main-header {
   float: left;
   display: inline;
+  margin-top: 30px;
+  font-size: 22px;
 }
 
 
@@ -41,10 +39,11 @@ nav ul li a {
   text-shadow: 1px 1px 1px #CACAD9;
   color: #121212;
   font: 1em "Helvetica, Arial" sans-serif;
-  padding-left: 38px;
+  padding-left: 25px;
 }
 nav ul.menu {
-  margin: 40px 150px;
+  float: right;
+  margin: 30px 10px;
 }
 
 /*
@@ -54,7 +53,7 @@ ul.dropdown                         { position: relative; }
 ul.dropdown li                      { font-weight: bold; float: left; zoom: 1; background: #fff; }
 ul.dropdown a:hover               { color: #000; }
 ul.dropdown a:active                { color: #ffa500; }
-ul.dropdown li a                    { display: block; padding: 7px; color: #222; }
+ul.dropdown li a                    { display: block; color: #222; }
 ul.dropdown li:last-child a         { border-right: none; }
 ul.dropdown li.hover,
 ul.dropdown li:hover                { background: #C0C9FF; color: black; position: relative; }
