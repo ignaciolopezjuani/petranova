@@ -8,9 +8,23 @@ title: Home
 
 
 <section>
-  <header>
-    <h1>Nivo slider</h1>
-  </header>
+
+    <div class="slider-wrapper">
+      <div id="slider" class="nivoSlider">
+          <img src="images/nemo.jpg" alt="" />
+          <a href="http://dev7studios.com"><img src="images/up.jpg" alt="" title="#htmlcaption" /></a>
+          <img src="images/walle.jpg" alt="" title="This is an example of a caption" />
+          <img src="images/toystory.jpg" alt="" />
+      </div>
+    </div>
+    <div id="htmlcaption" class="nivo-html-caption">
+        <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+    </div>
+    <script type="text/javascript">
+    $(window).load(function() {
+    $('#slider').nivoSlider();
+    );
+    </script>
 
 <section>
 
@@ -97,8 +111,8 @@ title: Home
     <li><a href="#">Petranova@gmail.com</a></li>
     <li>Rodrigo Calixto   099349135</li>
     <li>Pablo Barrios   091300402</li>
-    <li><a href="#"><img src="media/images/productos/artesania01-02-03.jpg"/></a></li>
-    <li><a href="#"><img src="media/images/productos/artesania01-02-03.jpg"/></a></li>
+    <li><a href="#"><img src="media/images/facebook.jpg"/></a></li>
+    <li><a href="#"><img src="media/images/mercadolibre.jpg"/></a></li>
   </ul>
 </section>
 
