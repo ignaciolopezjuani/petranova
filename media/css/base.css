@@ -106,9 +106,7 @@ ul.dropdown ul {
 
 /*Home*/
 body.home {
-background-color: black;
-background-image:url('media/images/blackgrund.jpg');
-background-image:url('media/images/marble.jpg');
+  background:url(/media/images/background.jpg) repeat, url(/media/images/marble2.jpg) no-repeat center top;
 }
 
 /* About */
