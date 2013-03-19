@@ -18,18 +18,22 @@ body {
 }
 
 .main-container {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
   background-color: white;
 }
 
 .main-header {
+  margin-left: 13%;
   float: left;
   display: inline;
   margin-top: 30px;
   font-size: 22px;
 }
-
+.main-footer {
+  color: white;
+  margin: 3% 13%;
+}
 
 nav ul li {
   list-style-type: none;
@@ -44,7 +48,7 @@ nav ul li a {
 }
 nav ul.menu {
   float: right;
-  margin: 30px 10px;
+  margin: 3% 13%;
 }
 
 /*
@@ -106,7 +110,7 @@ ul.dropdown ul {
 
 /*Home*/
 body.home {
-  background:url(/media/images/background.jpg) repeat, url(/media/images/marble2.jpg) no-repeat center top;
+  background:url(../images/backgroundsmall.jpg) repeat-x center top, url(../images/marble3.jpg) no-repeat center, url(../images/background.jpg) repeat;
 }
 
 /* About */
