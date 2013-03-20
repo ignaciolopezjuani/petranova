@@ -21,6 +21,7 @@ body {
   width: 80%;
   margin: 0 auto;
   background-color: white;
+  margin-top: 2em;
 }
 
 .main-header {
@@ -33,10 +34,14 @@ body {
 .main-footer {
   color: white;
   margin: 3% 13%;
+  text-align: center;
 }
 .main-title {
-  margin: 0 auto;
-  margin-left: 50%;
+  margin-left: 5%;
+  font-size: 2em;
+  color: #020304;
+  text-shadow: 1px 1px 5px #474747;
+   filter: dropshadow(color=#474747, offx=1, offy=1);
 }
 
 nav ul li {
@@ -118,10 +123,12 @@ body.home {
 }
 
 body.home article.products {
-  background-color: black;
+  background: url(../images/backgroundsmall.jpg);
   display: block;
   float: left;
   margin-left: 13px;
+  -webkit-box-shadow: 1px 1px 2px 2px rgba(10, 10, 10, 0.5);
+box-shadow: 2px 2px 3px 3px rgba(20, 20, 20, 0.5);
 }
 body.home .materiales ul li{
   display: inline;
