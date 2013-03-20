@@ -34,6 +34,10 @@ body {
   color: white;
   margin: 3% 13%;
 }
+.main-title {
+  margin: 0 auto;
+  margin-left: 50%;
+}
 
 nav ul li {
   list-style-type: none;
@@ -111,6 +115,18 @@ ul.dropdown ul {
 /*Home*/
 body.home {
   background:url(../images/backgroundsmall.jpg) repeat-x center top, url(../images/marble3.jpg) no-repeat center, url(../images/background.jpg) repeat;
+}
+
+body.home article.products {
+  background-color: black;
+  display: block;
+  float: left;
+  margin-left: 13px;
+}
+body.home .materiales ul li{
+  display: inline;
+  margin-left: 6em;
+
 }
 
 /* About */
