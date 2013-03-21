@@ -16,6 +16,19 @@ body {
   color: #333;
   line-height: 1.5em;
 }
+a {
+  color: #EBE7E2;
+  text-decoration: none;
+}
+a:hover {
+color: #AC9C88;
+}
+
+a.sub-category {
+  color: #171411;
+  font-size: 18px;
+  margin: 4em;
+}
 
 .main-container {
   width: 80%;
@@ -133,7 +146,6 @@ box-shadow: 2px 2px 3px 3px rgba(20, 20, 20, 0.5);
 body.home .materiales ul li{
   display: inline;
   margin-left: 6em;
-
 }
 
 /* About */
@@ -158,6 +170,7 @@ body.contact {
 
 .contacto {
   width: 500px;
+  margin: 0 auto;
 }
 
 .contacto .titulo-pagina {
