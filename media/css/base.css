@@ -148,6 +148,20 @@ body.home .materiales ul li{
   margin-left: 6em;
 }
 
+body.home .contact {
+  text-align: center;
+  text-shadow: 1px 1px 1px #B8BD94;
+  color: #121212;
+  font: 1.5em "Helvetica, Arial" sans-serif;
+}
+body.home .contact .mail   {
+  color: #045880;
+  }
+
+body.home .contact li{
+  margin-top: 1em;
+}
+
 /* About */
 body.about {
 }
