@@ -157,6 +157,9 @@ body.home .contact {
 body.home .contact .mail   {
   color: #045880;
   }
+body.home .contact .mail:hover  {
+  color: #AC9C88;
+  }
 
 body.home .contact li{
   margin-top: 1em;
