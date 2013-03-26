@@ -38,11 +38,13 @@ a.sub-category {
 }
 
 .main-header {
+  font-family: 'Domine', Helvetica, Arial, serif;
+  font-weight: bold;
   margin-left: 13%;
   float: left;
   display: inline;
   margin-top: 30px;
-  font-size: 22px;
+  font-size: 25px;
 }
 .main-footer {
   color: white;
@@ -53,7 +55,7 @@ a.sub-category {
   margin-left: 5%;
   font-size: 2em;
   color: #020304;
-  text-shadow: 1px 1px 5px #474747;
+  text-shadow: 1px 1px 2px #474747;
    filter: dropshadow(color=#474747, offx=1, offy=1);
 }
 
@@ -163,6 +165,9 @@ body.home .contact .mail:hover  {
 
 body.home .contact li{
   margin-top: 1em;
+}
+.products h2 {
+  text-align: center;
 }
 
 /* About */
