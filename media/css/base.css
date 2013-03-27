@@ -26,8 +26,12 @@ color: #AC9C88;
 
 a.sub-category {
   color: #171411;
-  font-size: 18px;
+  font-size: 20px;
   margin: 4em;
+  font-family: 'Domine', Helvetica, Arial, serif;
+}
+.materials-list {
+  padding: 25px 0 25px 0;
 }
 
 .main-container {
@@ -52,12 +56,19 @@ a.sub-category {
   text-align: center;
 }
 .main-title {
+  font-family: 'Domine', Helvetica, Arial, serif;
   margin-left: 5%;
   font-size: 2em;
   color: #020304;
   text-shadow: 1px 1px 2px #474747;
    filter: dropshadow(color=#474747, offx=1, offy=1);
    padding-bottom: 50px;
+}
+.main-section {
+  padding: 25px 0 25px 0;
+}
+#materials {
+  padding-top: 225px;
 }
 
 nav ul li {
