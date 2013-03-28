@@ -17,9 +17,13 @@ body {
   line-height: 1.5em;
 }
 a {
-  color: #EBE7E2;
+  color: #1F1B16;
   text-decoration: none;
 }
+a .light_a {
+  color: #ACAAAA;
+}
+
 a:hover {
 color: #AC9C88;
 }
@@ -40,8 +44,11 @@ color: #AC9C88;
   text-align: center;
 }
 
-.about-list li {
-  color: #171411;
+.about-list li a{
+  color: #222;
+}
+.about-list li a:hover {
+  color: #AC9C88;
 }
 
 .main-container {
@@ -192,25 +199,12 @@ body.home .contact li{
   text-align: center;
 }
 
-/* About */
-body.about {
+/* Products */
+body.products {
 }
 
-/* activities */
 
-body.activities {
 
-}
-
-/* afiliate */
-body.afiliate {
-
-}
-
-/* Contact */
-body.contact {
-
-}
 
 .contacto {
   width: 500px;
@@ -276,18 +270,5 @@ body.contact {
   line-height: 2em;
 }
 
-/* gallery */
-body.gallery {
-
-}
-
-
-/* links */
-body.links {
-
-}
-/* virtual-class-room */
-body.virtual-class-room {
-}
 
 
