@@ -57,7 +57,7 @@ color: #AC9C88;
   color: #AC9C88;
 }
 
-.main-container {
+.wrapper {
   width: 80%;
   margin: 0 auto;
   background-color: white;
@@ -72,6 +72,9 @@ color: #AC9C88;
   display: inline;
   margin-top: 30px;
   font-size: 25px;
+}
+.main-container {
+  clear: both;
 }
 .main-footer {
   color: white;
@@ -275,6 +278,3 @@ body.products {
   text-align: center;
   line-height: 2em;
 }
-
-
-
