@@ -67,10 +67,9 @@ color: #AC9C88;
 .main-header {
   font-family: 'Domine', Helvetica, Arial, serif;
   font-weight: bold;
-  margin-left: 13%;
+  margin: 5%;
   float: left;
   display: inline;
-  margin-top: 30px;
   font-size: 25px;
 }
 .main-container {
@@ -106,11 +105,11 @@ nav ul li a {
   text-shadow: 1px 1px 1px #CACAD9;
   color: #121212;
   font: 1em "Helvetica, Arial" sans-serif;
-  padding-left: 25px;
+  padding: 0 10px 0 10px;
 }
 nav ul.menu {
   float: right;
-  margin: 3% 13%;
+  margin: 7% 5%;
 }
 
 /*
